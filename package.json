@@ -1,0 +1,38 @@
+{
+  "name": "shellter",
+  "version": "1.0.0",
+  "description": "Node-based web file-manager/shell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/altenia/shellter.git"
+  },
+  "keywords": [
+    "node",
+    "file",
+    "manager",
+    "shell"
+  ],
+  "author": "Young-Suk Ahn Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/altenia/shellter/issues"
+  },
+  "homepage": "https://github.com/altenia/shellter",
+  "dependencies": {
+    "bunyan": "^1.0.1",
+    "handlebars": "~2.0.0",
+    "joi": "^4.6.2",
+    "mime": "^1.2.11",
+    "nconf": "^0.6.9"
+  },
+  "devDependencies": {
+    "hapi": "^6.7.1",
+    "hoek": "^2.4.1",
+    "joi": "^4.6.2",
+    "lout": "^5.0.2"
+  }
+}
